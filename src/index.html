@@ -11,7 +11,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
+    <!-- Fontawesome icons -->
+    <script
+      src="https://kit.fontawesome.com/26aa5150aa.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- TailwindCSS configfile loading -->
     <link href="/dist/output.css" rel="stylesheet" />
     <title>Dan Dahlén</title>
@@ -45,13 +49,20 @@
       class="bg-teal-700 w-screen h-34 p-4 mb-4 flex text-zinc-200 bottom-0 absolute"
     >
       <div class="flex justify-center flex-col w-screen">
-        <p>Boka en kostnadsfri konsultation</p>
-        <i></i>
-        <p>+46 735 - 56 23 10</p>
-        <i></i>
-        <p>hej@dandahlen.se</p>
-        <div><i>LINKEDIN</i><i> INSTAGRAM</i></div>
-        <p>2023 Dan Dahlén</p>
+        <p class="flex justify-center">Boka en kostnadsfri konsultation</p>
+        <div class="flex justify-center">
+          <i class="mr-2 fa-solid fa-phone-volume"></i>
+          <p>+46 735 - 56 23 10</p>
+        </div>
+        <div class="flex justify-center">
+          <i class="mr-2 fa-regular fa-envelope"></i>
+          <p>hej@dandahlen.se</p>
+        </div>
+        <div class="flex justify-center">
+          <i class="fa-brands fa-linkedin fa-lg"></i
+          ><i class="ml-2 fa-brands fa-square-instagram fa-lg"></i>
+        </div>
+        <p class="flex justify-center">2023 Dan Dahlén</p>
       </div>
     </footer>
   </body>
