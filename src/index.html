@@ -3,9 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Normalize CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- TailwindCSS configfile loading -->
     <link href="/dist/output.css" rel="stylesheet" />
+    <title>Dan Dahlén</title>
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+  <body class="font-robo">
+    <header class="flex flex-col">
+      <div class="flex p-2 bg-teal-700 w-screen justify-center">
+        <h3 class="text-zinc-400 h-14 font-pop">
+          <span class="font-bold">Boka en kostnadsfri konsultation</span
+          ><br />+46 735 - 56 23 10
+        </h3>
+      </div>
+      <div class="flex pt-6 justify-center">
+        <img src="images/danlogo.png" alt="Dan Dahlen logo" />
+      </div>
+      <div class="flex justify-center mt-8">
+        <nav class="flex justify-center w-screen">
+          <ul class="flex justify-between w-screen mx-6 text-lg">
+            <li class="font-bold"><a href="#">HOME</a></li>
+            <li class="font-bold"><a href="#">ABOUT</a></li>
+            <li class="font-bold"><a href="#">SERVICES</a></li>
+            <li class="font-bold"><a href="#">FAQ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- Add main stuff here! -->
+    </main>
+    <footer
+      class="bg-teal-700 w-screen h-34 p-4 mb-4 flex text-zinc-200 bottom-0 absolute"
+    >
+      <div class="flex justify-center flex-col w-screen">
+        <p>Boka en kostnadsfri konsultation</p>
+        <i></i>
+        <p>+46 735 - 56 23 10</p>
+        <i></i>
+        <p>hej@dandahlen.se</p>
+        <div><i>LINKEDIN</i><i> INSTAGRAM</i></div>
+        <p>2023 Dan Dahlén</p>
+      </div>
+    </footer>
   </body>
 </html>
