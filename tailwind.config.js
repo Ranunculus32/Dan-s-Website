@@ -4,15 +4,16 @@ module.exports = {
   theme: {
 
     extend: {    
-      
       fontFamily: {
-      'robo': ['Roboto','sans-serif'],
-      'pop':['Poppins','sans-serif'],
-    },
+        'robo': ['Roboto','sans-serif'],
+        'pop':['Poppins','sans-serif'],
+      },
+
   
   },
 
   },
+
   plugins: [],
 }
 
